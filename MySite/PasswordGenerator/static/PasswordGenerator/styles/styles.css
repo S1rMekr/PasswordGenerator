@@ -1,0 +1,60 @@
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+  background-color: rgb(16, 8, 52);
+}
+
+.center {
+  background-color: transparent;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: transparent;
+}
+
+.btn-primary {
+  background-color: rgb(94, 94, 210);
+  border-color: rgb(94, 94, 210);
+  height: 10rem;
+  width: 70rem;
+  text-align: center;
+  font-size: 5.5rem;
+  padding: 1rem;
+  font-family: Georgia, "Times New Roman";
+  color: rgb(215, 242, 255);
+}
+
+.generator-h1 {
+  height: 10rem;
+  width: 70rem;
+  text-align: center;
+  font-size: 5.5rem;
+  padding: 1rem;
+  font-family: Georgia, "Times New Roman";
+  color: rgb(148, 246, 207);
+}
+
+.password {
+  background-color: rgb(148, 246, 207);
+  height: 10rem;
+  width: 70rem;
+  text-align: center;
+  font-size: 5.5rem;
+  font-family: Georgia, "Times New Roman";
+  padding: 1rem;
+  margin-top: 1rem;
+}

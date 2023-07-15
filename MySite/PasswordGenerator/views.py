@@ -3,9 +3,9 @@ from django.http import HttpResponseNotFound
 from .generator import *
 
 # Create your views here.
-menu = [{'title': 'Генератор паролей', 'url': 'generator'},
-        {'title': 'Новая фича 1', 'url': 'feature1'},
-        {'title': 'Новая фича 2', 'url': 'feature2'}]
+menu = [{'title': 'ГЕНЕРАТОР ПАРОЛЕЙ', 'url': 'generator'},
+        {'title': 'ЧТО-ТО ЕЩЕ', 'url': 'feature1'},
+        {'title': 'ЧТО-ТО ЕЩЕ 2', 'url': 'feature2'}]
 
 
 def index(request):

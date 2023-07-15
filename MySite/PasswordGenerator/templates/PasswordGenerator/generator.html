@@ -1,9 +1,12 @@
 {% extends "PasswordGenerator/base.html" %} {% block content %} {% csrf_token %}
-<h1>Генератор паролей</h1>
 
-<form action="{% url 'generator' %}">
-  <button>Сгенерировать 8-ми значный пароль</button>
-</form>
-<h2>{{ password }}</h2>
+<div class="center">
+  <h1 class="generator-h1">Генератор паролей</h1>
+  <form action="{% url 'generator' %}">
+    <button class="btn btn-primary" type="submit">Сгенерировать пароль</button>
+  </form>
+  <p class="password">{{ password }}</p>
+  <a class="btn btn-primary" href="{% url 'home' %}">На главную страницу</a>
+</div>
 
 {% endblock content %}
