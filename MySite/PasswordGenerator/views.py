@@ -13,6 +13,10 @@ def index(request):
 
 
 def generator(request):
+    return render(request, 'PasswordGenerator/generator.html', {'menu': menu, 'title': 'Генератор паролей'})
+
+
+def generator2(request):
     password = password_generator()
     return render(request, 'PasswordGenerator/generator.html', {'menu': menu, 'password': password, 'title': 'Генератор паролей'})
 
